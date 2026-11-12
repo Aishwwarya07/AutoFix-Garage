@@ -15,5 +15,5 @@ As part of our specific group twist, we also implemented a "Return Flow" feature
 
 ## How to Run the Project
 
-1. Clone this repository to your local machine: git clone https://github.com/Aishwwarya07/AutoFix-Garage.git
-   ```bash
+1. Clone this repository to your local machine: 
+   git clone https://github.com/Aishwwarya07/AutoFix-Garage.git```bash
