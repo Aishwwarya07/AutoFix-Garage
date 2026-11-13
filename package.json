@@ -6,13 +6,18 @@
   "scripts": {
     "db:init": "node config/database.js",
     "db:seed": "node database/seed.js",
-    "test": "node --test database/test.js"
+    "test": "node --test database/test.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "better-sqlite3": "^13.0.3"
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
   }
 }
