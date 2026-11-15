@@ -9,8 +9,8 @@ As part of our specific group twist, we also implemented a "Return Flow" feature
 
 * **Member 1 (Server):** K PAVAN KUMAR - Handled the Express server setup and mechanic routes.
 * **Member 2 (Database):** Aishwarya - Set up the SQLite database, tables, and relations.
-* **Member 3 (Bays):** [Insert Name] - Built the service bays CRUD endpoints, input validation, and search parameters.
-* **Member 4 (Assignments & Twist):** [Insert Name] - Built the SQL JOIN endpoints and the custom Return Flow logic (409 Conflict handling).
+* **Member 3 (Bays):** HARSHAVARDHAN - Built the service bays CRUD endpoints, input validation, and search parameters.
+* **Member 4 (Assignments & Twist):** Ch HEMANTH - Built the SQL JOIN endpoints and the custom Return Flow logic (409 Conflict handling).
 * **Member 5 (Testing & Docs):** Dhanunjay - Created the Postman test collection, managed the GitHub repo, and wrote the documentation.
 
 ## How to Run the Project
