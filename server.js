@@ -2,6 +2,7 @@
 const express = require('express');
 const db = require('./config/database');
 const mechanicsRouter = require('./routes/mechanics');
+const baysRouter = require('./routes/bays');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse incoming JSON
 app.use(express.json());
 app.use('/mechanics', mechanicsRouter);
+app.use('/bays', baysRouter);
 
 // API welcome route
 app.get('/', (req, res) => {
